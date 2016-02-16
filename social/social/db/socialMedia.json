@@ -1,0 +1,82 @@
+{
+    "posts": [
+        {
+            "social": "1",
+            "SocialMedia": "Jam",
+            "monthAmount": "15"
+        },
+        {
+            "social": "2",
+            "SocialMedia": "SCN",
+            "monthAmount": "11"
+        },
+        {
+            "social": "3",
+            "SocialMedia": "Twitter",
+            "monthAmount": "99"
+        }
+
+    ],
+
+    "Feedback": [
+        {
+            "social": "1",
+            "SocialMedia": "Jam",
+            "monthAmount": "39"
+        },
+        {
+            "social": "2",
+            "SocialMedia": "SCN",
+            "monthAmount": "260"
+        },
+        {
+            "social": "3",
+            "SocialMedia": "Twitter",
+            "monthAmount": "381"
+        }
+
+    ]
+    ,
+
+    "comments": [
+        {
+            "social": "1",
+            "SocialMedia": "Jam",
+            "monthAmount": "12"
+        },
+        {
+            "social": "2",
+            "SocialMedia": "SCN",
+            "monthAmount": "29"
+        },
+        {
+            "social": "3",
+            "SocialMedia": "Twitter",
+            "monthAmount": "105"
+        }
+
+    ],
+
+    "Reach": [
+        {
+            "social": "1",
+            "SocialMedia": "Jam",
+            "monthAmount": "249"
+        },
+        {
+            "social": "2",
+            "SocialMedia": "SCN",
+            "monthAmount": "11893"
+        },
+        {
+            "social": "3",
+            "SocialMedia": "Twitter",
+            "monthAmount": "631569"
+        }
+
+    ]
+
+}
+
+
+

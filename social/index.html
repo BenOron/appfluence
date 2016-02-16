@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="social/css/style.css"/>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+    <title></title>
+    <script id="sap-ui-bootstrap" src="https://sapui5.netweaver.ondemand.com/resources/sap-ui-core.js"
+            data-sap-ui-theme="sap_bluecrystal"
+            data-sap-ui-libs="sap.ui.commons,sap.m,sap.viz"></script>
+</head>
+<body id="body" class="sapUiBody body">
+<div class="mainContainer">
+<div id="header" class="header">
+        <div class="headerName"><b id="headerName">Appfluence</b></div>
+        <div class="userImage" id="userImage"><img src="social/images/user.png" style="border-radius: 24px;" ></div>
+        <div class="userName" id="userName">John Appleby</div>
+        <div id="headerSettings"></div>
+    </div>
+<div class="userDetails" id="userDetails" style="display: inline-block;">
+    <div class="userScore" id="userScore" style="display: inline-block;">4.9</div>
+    <div class="userTotalScore" id="userTotalScore" style="display: inline-block;">
+    <div id="menuName">My Appfluence Score</div>
+        <ul>
+            <p class="userTotalScoreNumber"> 78%</p>
+            <p class="userTotalScore">vs. People Like Me</p>
+            <p class="userTotalScoreNumber"> 70%</p>
+            <p class="userTotalScore">vs. My Company Peers</p>
+            <p class="userTotalScoreNumber"> 68%</p>
+            <p class="userTotalScore">vs. My Team</p>
+        </ul>
+    </div>
+    <div class="userChart" id="userChart"></div>
+
+</div>
+<div class="menu" id="menu">
+    <div id="viewName">View</div>
+    <div id="viewTime">Show me my influence over a:</div>
+    <div class="myView" id="myView"></div>
+    <div class="TeamView" id="TeamView"></div>
+    <div class="worldView" id="worldView"></div>
+</div>
+<div class="tilesContainer">
+    <div id="tilesArea" class="tilesArea">
+        <div id="container1" class="tiles openPopup">
+            <div class="contentTile">
+                <div class="count countPosts">125</div>
+                <div class="name">Posts</div>
+                <div class="chartBar chartBarContent" id="chartPosts0"></div>
+            </div>
+        </div>
+
+        <div id="container2" class="tiles openPopup">
+            <div class="contentTile">
+                <div class="count countFeedback">670</div>
+                <div class="name">Feedback</div>
+                <div class="chartBar chartBarContent" id="chartPosts1"></div>
+            </div>
+        </div>
+
+        <div id="container3" class="tiles openPopup">
+            <div class="contentTile">
+                <div class="count countFeedback">146</div>
+                <div class="name">Comments</div>
+                <div class="chartBar chartBarContent" id="chartPosts2"></div>
+            </div>
+        </div>
+
+        <div id="container4" class="tiles openPopup">
+            <div class="contentTile">
+                <div class="count countFeedback">644K</div>
+                <div class="name" id="nameR">Reach</div>
+                <div class="chartBar chartBarContent" id="chartPosts3"></div>
+            </div>
+        </div>
+
+        <div id="container5" class="tiles openPopup">
+            <div class="contentTile">
+                <div class="count countFeedback"></div>
+                <div class="name" id="nameActivities">Activities</div>
+                <div class="chartBar chartBarContent" id="chartPosts4">6</div>
+            </div>
+        </div>
+
+        <div id="container6" class="tiles openPopup">
+            <div class="contentTile">
+                <div class="count countFeedback"></div>
+                <div class="name"></div>
+                <div class="chartBar chartBarContent" id="WordTags">
+                    <img src="social/images/worldCloud12.png" id="wordtagsImg" ></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id='popup'></div>
+
+</div>
+</div>
+</body>
+<script src="social/js/SocialTalentEngagementView.js"></script>
+<script src="social/js/PostsDialog.js"></script>
+<script src="social/js/filterDialog.js"></script>
+
+</html>

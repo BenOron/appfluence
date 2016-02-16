@@ -1,0 +1,587 @@
+html{
+    height: 100%;
+    background-image: url('../images/big_BG.png' ) !important;
+    background-repeat: no-repeat;
+    font-family:Arial,Helvetica,sans-serif;
+}
+body{
+    background-color: #f5f5f5 !important;
+    background-image: none !important;
+    background-color: transparent !important;
+}
+#MyView1 {
+    width: 55px;
+    height: 55px;
+    background: rgba(189, 189, 189, 0.6);
+    background-image: url('../images/icon1.png' ) !important;
+    border: none;
+}
+
+#MyView1-icon{
+
+}
+
+#__image3{
+
+}
+
+.hide {
+    margin-top: -22px;
+    width: 25px;
+    z-index: 99999;
+    height: 19px;
+    margin-right: 10px;
+    position: absolute;
+    left: 94%;
+}
+
+.sapUiToggleBtnPressed{
+    background:rgba(69, 97, 75, 0.65) !important
+}
+
+#TeamView1 {
+    width: 55px;
+    height: 55px;
+    background: rgba(189, 189, 189, 0.6);
+    background-image: url('../images/icon2.png' ) !important;
+    border: none;
+    margin-left: 0.7%;
+}
+
+#TeamView1-icon{
+
+}
+
+#month_6{
+    width: 106px;
+    height: 52px;
+    font-size: 17px;
+    background-color: transparent;
+    border-style: solid;
+    color: #fff;
+    border-color: #fff;
+    margin-left: 0.2%;
+}
+
+#Week1{
+    width: 106px;
+    height: 52px;
+    font-size: 17px;
+    background-color: transparent;
+    border-style: solid;
+    color: #fff;
+    border-color: #fff;
+    margin-left: 0.2%;
+}
+
+#month_3{
+    width: 106px;
+    height: 52px;
+    font-size: 17px;
+    background-color: transparent;
+    border-style: solid;
+    color: #fff;
+    border-color: #fff;
+    margin-left: 0.2%;
+}
+
+#Year{
+    width: 106px;
+    height: 52px;
+    font-size: 17px;
+    background-color: transparent;
+    border-style: solid;
+    color: #fff;
+    border-color: #fff;
+    margin-left: 0.2%;
+}
+
+#month1{
+    width: 106px;
+    height: 52px;
+    font-size: 17px;
+    background-color: transparent;
+    border-style: solid;
+    color: #fff;
+    border-color: #fff;
+    margin-left: 0.2%;
+}
+
+#nameR{
+    margin-top: -10.5%;
+    margin-left: 34%;
+}
+
+.show{
+    background-color: #ECECEC !important;
+}
+
+#menuName {
+    position: relative;
+    color: #fff;
+    font-size: 25px;
+    top: 244px;
+    right: 243px;
+}
+#wordtagsImg{
+    width: 100%;
+    height: 218px;
+}
+
+#nameActivities {
+    float: right;
+    margin-top: 83%;
+    right: 10px;
+    position: absolute;
+    color: #fff;
+}
+
+
+
+#chartPosts4 {
+    margin-top: 34%;
+    font-size: 146px;
+    float: left;
+    color: #ffffff;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+#viewTime {
+    position: absolute;
+    margin-top: -2.8%;
+    color: #fff;
+    font-size: 25px;
+    right: 32%;
+}
+
+#worldView1 {
+    background: rgba(189, 189, 189, 0.6);
+    background-image:url('../images/icon3.png' ) !important;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 55px;
+    height: 55px;
+    border: none;
+    margin-left: 0.5%;
+    margin-right: 20%;
+
+}
+
+#worldView{
+    width: 100%;
+    display: flex;
+}
+.menu{
+    display: flex;
+    margin-left: 6%;
+}
+
+
+.header{
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(252, 252, 252, 0.49);
+    height: 48px;
+}
+
+.userImage{
+    display: inline-block;
+    margin-right: 1%;
+    margin-left: 81%;
+}
+
+.sapVizChart {
+    position: relative;
+    float: left;
+}
+
+.v-label{
+
+}
+
+
+.mainContainer{
+   /* background-image: url('../images/BG.png' );
+    background-repeat: no-repeat;*/
+    width: 1024px;
+    margin: 0px auto;
+    min-height: 100%;
+}
+
+
+#userTotalScore{
+    margin-top: 0%;
+    color: rgba(50, 60, 55, 0.87);
+    margin-left: 15px;
+}
+.userDetails{
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-bottom: 6%;
+}
+
+#userChart{
+    margin-top: -11%;
+    left: 47%;
+    position: absolute;
+}
+
+#userScore{
+    float: left;
+    font-size: 240px;
+    color: #ffffff;
+    letter-spacing: -27px;
+}
+
+#userScoreSubs{
+    display: inline-block;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: -1%;
+}
+
+#userName{
+    margin-top: -2%;
+    margin-left: 46%;
+    position: absolute;
+}
+
+#headerName{
+    margin-top: 8px;
+    position: absolute;
+    margin-left: 1%;
+    font-style: italic;
+    font-size: 30px;
+    color: rgba(111, 122, 117, 1);
+}
+
+#headerSettings{
+    margin-top: -4%;
+    margin-left: 96%;
+}
+#chartPosts3{
+    float: right;
+}
+.tiles {
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 30%;
+    height: 219px;
+    display: inline-block;
+    font-family: "Calibri (Body)";
+    float: left;
+    background-color: rgba(29, 27, 27, 0.16);
+}
+.v-background-body {
+    fill: transparent !important;
+}
+
+
+.tiles:hover{
+    cursor:pointer;
+}
+
+.tilesContainer{
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
+
+.userTotalScoreNumber {
+    font-size: 45px;
+    display: inline;
+    margin-bottom: 1;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+.userTotalScore {
+    margin-top: -1%;
+}
+
+#chartPosts {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute !important;
+    /* position: relative; */
+}
+
+
+.tilesArea{
+
+}
+
+.contentTileReach{
+    margin-top: 30% !important;
+    padding-bottom: 1%;
+    margin-left: 3%;
+}
+#container4 {
+    width: 39.6%;
+}
+
+#container5{
+    width: 21%;
+}
+
+#container6{
+    width: 29.3%;
+}
+
+.contentTile {
+    margin-top: 27%;
+}
+
+.chartCanvasArea2{
+    margin-top: -48PX;
+    margin-right: 0%;
+}
+
+.chartCanvas{
+    margin-top: 4% !important;
+    width: 84% !important;
+    height: 120px !important;
+}
+#canvas {
+
+}
+
+
+
+#canvas1 {
+  }
+
+
+#canvas2 {
+}
+
+
+.countPosts{
+    color: #800080;
+}
+
+
+
+.countFeedback{
+    color: #28FCF2;
+}
+
+
+
+.countComments{
+    color: #FF9900;
+}
+
+.openPopup{
+    text-align: right;
+    top: -19px;
+    position: relative;
+
+}
+
+
+
+
+.count {
+    margin: 0 auto;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size: 50px;
+    width: 10%;
+    margin-left: 2%;
+    margin-top: -27%;
+    color: #fff;
+}
+
+.name {
+    position: relative;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    margin-top: -14%;
+    margin-left: 33%;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    z-index: 100;
+    display: none;
+}
+.content a{
+    text-decoration: none;
+}
+.popup{
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+    position: fixed;
+    z-index: 101;
+}
+
+
+
+.content{
+    background: #fff;
+    z-index: 103;
+    box-shadow: 0px 0px 42px #000;
+    height: 458px;
+    width: 52%;
+    left: 20%;
+    position: absolute;
+}
+.content p{
+    clear: both;
+    color: #555555;
+    text-align: justify;
+}
+.content p a{
+    color: #d91900;
+    font-weight: bold;
+}
+.content .x{
+    float: right;
+    height: 35px;
+    left: 22px;
+    position: relative;
+    top: -25px;
+    width: 34px;
+}
+.content .x:hover{
+    cursor: pointer;
+}
+
+
+.titlePosts{
+
+}
+
+.postContainer{
+    padding-left: 100px;
+    position: relative;
+    box-shadow: 0 0 4px 2px rgba(204, 204, 204, 0.6);
+    padding-bottom: 11px;
+}
+
+.postContent{
+    position: absolute;
+    right: 2%;
+    width: 45%;
+    margin-bottom: 10%;
+    top: 15%;
+    overflow: auto;
+    height: 70%;
+}
+
+.imagePost{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.filter{
+    width: 45%;
+    height: 6%;
+    background-color: rgba(134, 134, 134, 0.26);
+    position: absolute;
+    top: 6%;
+    float: right;
+    right: 14px;
+    font-size: 28px;
+}
+
+.filterInput{
+    float: right;
+    position: relative;
+    top: -7px;
+}
+
+#viewName {
+    position: absolute;
+    margin-top: -2.8%;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.sapUiLbxI{
+    height: 80px;
+    border-bottom:1px solid #cccccc !important;
+    display: block !important;
+    line-height: 76px !important;
+    cursor: pointer;
+
+}
+
+.sapUiDlgCont{
+}
+
+.sapUiDlg{
+    border: none !important;
+    background-color: #ffffff;
+    opacity: 0.95;
+}
+
+.sapUiLbl{
+    font-size:11px !important;
+    line-height: normal !important;
+}
+
+.sapUiLbx{
+    margin-left: 250px !important;
+    width: 730px !important;
+}
+
+#postNumber {
+    font-size:117px !important;
+    padding-right: 114px;
+}
+
+#postText{
+    font-size: 59px !important;
+    padding-left: 29px;
+}
+
+.sapUiVlt {
+    padding-left: 50px !important;
+}
+
+.sapUiDlgCont{
+    padding-left: 100px !important;
+}
+
+/*.sapUiHLayoutChildWrapper:last-child{
+    padding-left: 120px;
+} */
+
+.sapUiHLayoutNoWrap{
+    width: 100% !important;
+}
+.sapUiLnk{
+     white-space: normal !important;
+}
+.sapMLabel{
+    white-space: normal !important;
+}
+
+.sapUiDlgCont{
+    padding-left: 10px !important;
+}
+
+#likeNumber {
+    font-size:20px !important;
+
+}
